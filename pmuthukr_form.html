@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<body background="image.jpg">
+<head>
+	<meta charset="utf-8" />
+	<title>Assignment-3</title>
+	<style type="text/css">
+	body
+	{
+	background:url("http://www.ppt-backgrounds.net/wp-content/uploads/2012/09/Light-Purple-Floral-Backgrounds.jpg");
+	background-repeat:no-repeat;
+	}
+	</style>
+</head>
+<body>
+<fieldset>
+<legend>Contact Information</legend>
+<form method="post" action="http://libertyville.rice.iit.edu/scripts/process.php">
+<label>First Name:<input type="text" name="first_name" ></label><br />
+<label>Last Name:<input type="text"  name="last_name" ></label><br />
+<label>Phone Number:<input type="tel"  name="phone" ></label><br />
+<label>Email:<input type="text" name="email" ></label><br />
+</fieldset>
+<fieldset>
+<legend>Hidden Field</legend>
+</label>Hidden Field:<input type="hidden" name="hidden" value="87676"></label><br />
+</fieldset>
+<fieldset>
+<legend>Text Area</legend>
+<textarea name="message">
+Enter your favorite number!! </textarea><br />
+</fieldset>
+<fieldset>
+<legend>Menu</legend>
+<select name="menu">
+<option selected ="selected" value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option></select><br />
+</fieldset>
+<fieldset>
+<legend>Radio</legend>
+<label>Radio1:<input type="radio" value="1" name="radio" checked="checked"></label><br />
+<label>Radio2:<input type="radio" value="2" name="radio"></label><br />
+<label>Radio3:<input type="radio" value="3" name="radio"></label><br />
+</fieldset>
+<fieldset>
+<legend>Checkboxs</legend>
+<label>checkbox 1<input type="checkbox" name="checkbox[]" value="1" ></label><br>
+<label>checkbox 2<input type="checkbox" name="checkbox[]" value="2" ></label><br>
+<label>checkbox 3<input type="checkbox" name="checkbox[]" value="3" checked="checked" ></label>
+</fieldset>
+
+
+<input type="submit" >
+
+</form>
+
+</body>
+</html>
